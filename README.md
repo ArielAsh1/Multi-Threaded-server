@@ -18,11 +18,10 @@ On both Terminals 1 & 2:
 
 
 for example:
-
 <p float="left">
-client side(with the menu printed):
+Client side (with the menu printed):
 <img width="370" alt="image" src="https://user-images.githubusercontent.com/112930532/215842204-d997fb52-d259-49d4-a18d-3a7c476d8724.png">
-server side:
+Server side:
 <img width="200" alt="image" src="https://user-images.githubusercontent.com/112930532/215843348-131db083-7029-45cc-9043-8471ff0da799.png">
 
 **Server should be initialized before client!**
