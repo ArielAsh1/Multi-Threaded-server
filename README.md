@@ -1,16 +1,18 @@
-# Advanced-Programming-1 - Ex 4
-This is the manual for Ex4.
+# Multi-Threaded TCP server- KNN Algorithm
+
+A C++ implementation of a multi-threaded TCP server.  
+The server uses the KNN machine learning algorithm to allow clients classify new samples, based on input dataset.
+
 
 **to compile and run perform the following commands:**  
 Open 2 terminals (1- for server side, 2- for client side):  
 On both Terminals 1 & 2:
 1. git init  
-2. git clone https://github.com/OrrBav/Advanced-Programming-1-EX4.git
-3. cd Advanced-Programming-1-EX4 
-4. make  
-5. **On Terminal 1 (server):** recieves 2 arguments-   
+2. git clone
+3. make  
+4. **On Terminal 1 (server):** recieves 2 arguments-   
 ./server.out port  
-6. **On terminal 2 (client):** recieves 3 arguments-   
+5. **On terminal 2 (client):** recieves 3 arguments-   
 ./client.out server ip server_port
 
 **Server should be initialized before client!**
@@ -50,10 +52,8 @@ for example:
 
 client side(with the menu printed):
 
-![image](https://user-images.githubusercontent.com/101596419/214344317-1945d0a1-f1b2-4927-b62b-acdfe66e6597.png)
-
+<img width="400" alt="image" src="https://user-images.githubusercontent.com/112930532/215841306-5e77398d-387b-4cb2-b235-518563652bfc.png">
 server side:
 
-![image](https://user-images.githubusercontent.com/101596419/214344241-c432867b-12b1-4446-a2d3-e0eb38b989fd.png)
-
+<img width="220" alt="image" src="https://user-images.githubusercontent.com/112930532/215840991-d86c82f4-526a-45fb-b8ca-f1a70f1278af.png">
 
