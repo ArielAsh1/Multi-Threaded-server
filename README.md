@@ -1,7 +1,8 @@
 # Multi-Threaded TCP server- KNN Algorithm
 
 A C++ implementation of a multi-threaded TCP server.  
-The server uses the KNN machine learning algorithm to allow clients classify new samples, based on input dataset.
+The server uses the KNN machine learning algorithm to allow clients classify new samples, based on input dataset.  
+Server can handle multiple clients simultaneously. 
 
 
 **to compile and run perform the following commands:**  
@@ -14,6 +15,15 @@ On both Terminals 1 & 2:
 ./server.out port  
 5. **On terminal 2 (client):** recieves 3 arguments-   
 ./client.out server ip server_port
+
+
+for example:
+
+<p float="left">
+client side(with the menu printed):
+<img width="370" alt="image" src="https://user-images.githubusercontent.com/112930532/215842204-d997fb52-d259-49d4-a18d-3a7c476d8724.png">
+server side:
+<img width="200" alt="image" src="https://user-images.githubusercontent.com/112930532/215843348-131db083-7029-45cc-9043-8471ff0da799.png">
 
 **Server should be initialized before client!**
 On this exercise, we implemented a Menu for client side, that maintains communication between the two sides, still using TCP protocol. Server side will handle the calculations and the all the necessary information, and will send client information when asked, according to the menu. <br>
@@ -47,13 +57,4 @@ Client side will print the menu for the user, and will send user's input to serv
 Server side will use Readfromfile.cpp to read the input csv file and ensure the input for KNN class will be accurate,
 
 For convinience reasons, we added the classified csv file to the repository, so cloning it will result of cloning said files as well.
-
-for example:
-
-client side(with the menu printed):
-
-<img width="400" alt="image" src="https://user-images.githubusercontent.com/112930532/215841306-5e77398d-387b-4cb2-b235-518563652bfc.png">
-server side:
-
-<img width="220" alt="image" src="https://user-images.githubusercontent.com/112930532/215840991-d86c82f4-526a-45fb-b8ca-f1a70f1278af.png">
 
