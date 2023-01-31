@@ -17,7 +17,7 @@ On both Terminals 1 & 2:
 ./client.out server ip server_port
 
 
-for example:
+For example:
 <p float="left">
 Client side (with the menu printed):
 <img width="370" alt="image" src="https://user-images.githubusercontent.com/112930532/215842204-d997fb52-d259-49d4-a18d-3a7c476d8724.png">
@@ -56,4 +56,10 @@ Client side will print the menu for the user, and will send user's input to serv
 Server side will use Readfromfile.cpp to read the input csv file and ensure the input for KNN class will be accurate,
 
 For convinience reasons, we added the classified csv file to the repository, so cloning it will result of cloning said files as well.
+
+Example:  
+choose 3: <img width="349" alt="image" src="https://user-images.githubusercontent.com/112930532/215844424-ac32221d-ba37-4b37-bda2-7a3cbfd10c25.png">
+choose 4: <img width="149" alt="image" src="https://user-images.githubusercontent.com/112930532/215844286-32ac9baa-2f52-4863-9bfb-637877da58b7.png">
+choose 5: <img width="244" alt="image" src="https://user-images.githubusercontent.com/112930532/215844023-5704434a-8837-44f7-aa83-496426a12dad.png">
+
 
